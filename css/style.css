@@ -25,6 +25,7 @@ header{
     justify-items: flex-start;
     align-items: flex-start;  
     max-height: calc(100vh - 60px);
+    padding-top: 60px;
     min-width: 40vh;
     background-color: red;
     overflow-y:scroll;
