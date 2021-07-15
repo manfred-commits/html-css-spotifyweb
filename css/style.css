@@ -51,7 +51,7 @@ main{
     left: 0;
     z-index: 2;   
     width: 200px;
-    bottom: 60px;
+    bottom: 80px;
     background-color: orange;
 }
 .main-nav-container{
@@ -146,7 +146,7 @@ main{
     width: calc(100% - 200px);
     background-color: green;
     margin-left: 200px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 /* footer section */
 footer{
@@ -155,23 +155,20 @@ footer{
     position: fixed;
     justify-content: space-between;
     bottom: 0;
-    min-height: 60px;
+    min-height: 80px;
     width: 100%;
     background-color: blue;
     z-index: 4;
 }
-.left-player{
-
-}
 .left-player,
 .right-player{    
     width: 30%;
-    height:60px;
+    height:80px;
     background-color: brown;
 }
 .left-player .adjacent-icon-formatting img{
     padding: 5px;
-    height: 60px;
+    height: 80px;
     margin-right: 10px;
 }
 .left-player .adjacent-icon-formatting h4{
@@ -194,15 +191,41 @@ footer{
 }
 .center-player{
     width: 40%;
-    height:60px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
     background-color: teal;
+    position: relative;    
+    color: white;
+}
+.center-player span{
+    padding: 0 5px;
+    font-size: 700;
 }
 .border-bar{
     border: 1px solid white;
     border-radius: 15px;
-    width: 200px;
-    background-color: grey;
-    position: relative;
+    width: 50%;
+    background-color: grey;    
+}
+.border-bar-center{    
+    width: 75%;
+}
+.center-icons{
+    position:absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 20px;    
+}
+.center-icons i{
+    padding: 0 5px;
+}
+.center-icons i.fa-play-circle{
+    font-size: 30px; 
 }
 .progress-bar{
     background-color: white;
@@ -229,4 +252,5 @@ footer{
 .right-player i{
     padding-right: 10px;
     font-size: 16px;
+    color: white;
 }
