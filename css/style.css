@@ -64,6 +64,7 @@ main{
 /* first section of the nav */
 .logo-container{
     display: inline-block;
+    margin-right: 35px;
 }
 #xs-img{
     display: none;
