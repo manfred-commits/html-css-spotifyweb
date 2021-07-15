@@ -74,7 +74,6 @@
     /* section with albums */ 
     .main-albums{
         width: calc(100% - 50px);
-        background-color: green;
         margin-left: 50px;
         margin-bottom: 60px;
     }   
@@ -108,7 +107,7 @@
 /* section with albums */ 
     .main-albums ul{
         flex-wrap: wrap;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     .main-albums ul li{
         padding: 6px 10px;
