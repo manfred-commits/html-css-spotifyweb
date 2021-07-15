@@ -57,5 +57,15 @@
         margin-left: 50px;
         margin-bottom: 60px;
     }
+    /* section footer */
+    .left-player .adjacent-icon-formatting{
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .left-player .adjacent-icon-formatting img{
+        padding: 5px;
+        height: 60px;
+        margin: 0;
+    }
     
 }
