@@ -32,21 +32,18 @@ main{
 }     
 
 /* navigation column section */
-.nav-col{
-    display: flex;
+.nav-col{    
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
-    flex-direction: column;    
+    z-index: 2;   
     width: 200px;
     bottom: 60px;
-    align-items: flex-start;
     background-color: orange;
 }
 .main-nav-container{
     width: 100%;
-    flex-grow: 1;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
