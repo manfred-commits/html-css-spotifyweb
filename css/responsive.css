@@ -4,6 +4,9 @@
     header{
         width: calc(100% - 50px);
     }
+    .upgrade-btn{
+        margin-right: 10px;
+    }
     /* navigation column section */
     .nav-col{    
         width: 50px;
@@ -73,5 +76,29 @@
         height: 60px;
         margin: 0;
     }
-    
+    /* section with albums */    
+    .main-albums ul{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .main-albums ul li{
+        padding: 6px 10px;
+    }
+    .main-albums .row {
+        align-items: flex-start;
+    }    
+    .main-albums .row .album-container{
+        display: inline-block;
+        width: calc(100% / 2 - 10px);
+    }
+    .main-albums .row .album-container h2 {
+        margin: 15px 0 0;
+    }
+    .main-albums span {
+        display: inline-block;
+        margin: 5px 0 5px;
+    }
+    .main-albums .row{
+        margin-bottom: 20px;
+    }
 }
