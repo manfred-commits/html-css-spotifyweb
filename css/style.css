@@ -152,10 +152,49 @@ main{
 /* footer section */
 footer{
     display: flex;
+    flex-wrap: wrap;
     position: fixed;
+    justify-content: space-between;
     bottom: 0;
     min-height: 60px;
     width: 100%;
     background-color: blue;
     z-index: 4;
+}
+.left-player{
+
+}
+.left-player,
+.right-player{    
+    width: 20%;
+    height:60px;
+    background-color: brown;
+}
+.left-player .adjacent-icon-formatting{
+    flex-wrap: wrap;
+}
+.left-player .adjacent-icon-formatting img{
+    padding: 5px;
+    height: 60px;
+    margin-right: 10px;
+}
+.left-player .adjacent-icon-formatting h4{
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+    color: white;
+}
+.left-player .adjacent-icon-formatting h4 span{
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+}
+.left-player i{
+    font-size: 16px;
+}
+.center-player{
+    width: 50%;
+    height:60px;
+    background-color: teal;
 }
