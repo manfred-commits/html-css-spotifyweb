@@ -54,9 +54,10 @@
     }
     .nav-col ul li{
         width: 100%;
-    }
-    .nav-col ul li img {
+    }    
+    .nav-col .search-nav .adjacent-icon-formatting img{
         width: 30px;
+        margin: 0;
     }
     .nav-col ul li span{
         display: none;
@@ -75,15 +76,15 @@
         padding: 0;
     }
     /* bottom part of the nav */
-    .bottom-nav{
-
+    .bottom-nav .divider{
+        visibility: hidden;
     }
     .bottom-nav .adjacent-icon-formatting span{
         display: none;
     }
     .bottom-nav .adjacent-icon-formatting img{
         margin: 0;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     /* section with albums */
     .main-albums{

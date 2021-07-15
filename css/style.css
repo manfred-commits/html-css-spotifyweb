@@ -76,8 +76,9 @@ header{
 .nav-col ul{
     list-style: none;
 }
-.nav-col ul li img{
-    width: 20px;
+.nav-col .search-nav .adjacent-icon-formatting img{
+    width: 25px;
+    margin-right: 10px;
 }
 /* second section of the nav */
 .playlist-nav{
@@ -107,6 +108,7 @@ header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 .divider,
 .bottom-nav .adjacent-icon-formatting{
