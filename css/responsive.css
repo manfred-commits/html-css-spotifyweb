@@ -46,6 +46,7 @@
     .bottom-nav{
         position: absolute;
         bottom: 0;
+        margin-bottom: 10px;
     }
     .bottom-nav .adjacent-icon-formatting i {
         padding: 0;
