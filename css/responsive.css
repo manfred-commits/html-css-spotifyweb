@@ -1,3 +1,4 @@
+/* responsive for small devises from 0 to 576px */
 @media screen and (max-width: 576px){
     /* transparent header */
     header{
@@ -10,11 +11,7 @@
         width: calc(100% - 50px);
         background-color: rgba(00, 00, 00, 0.4);
     }
-    
-    
-    
-    
-    
+    /* navigation column section */
     .nav-col{
         display: flex;
         flex-wrap: wrap;
@@ -32,9 +29,7 @@
     .container-left-col{
         padding-left: 0;
     }
-    .search-nav {
-        width:initial;
-    }
+    /* second section of the nav */    
     .logo-container{
         display: inline-block;
         background-image: url(../img/logo-small.svg);
@@ -43,8 +38,11 @@
         background-position:center;
         width:100%;
         height: 40px;
-        margin: 10px;
+        margin: 8px;
         margin-bottom: 0;
+    }
+    .search-nav {
+        width:initial;
     }
     .nav-col ul{
         display: inline-block;
@@ -58,6 +56,10 @@
     }
     .nav-col ul li span{
         display: none;
+    }
+    /* second section of the nav */
+    .playlist-nav{
+        display: none;    
     }
     /* section with albums */
     .main-albums{
