@@ -59,13 +59,7 @@
     .bottom-nav .divider{
         visibility: hidden;
     }
-    /* section with albums */
-    .main-albums{
-        width: calc(100% - 50px);
-        background-color: green;
-        margin-left: 50px;
-        margin-bottom: 60px;
-    }
+    
     /* section footer */
     .left-player .adjacent-icon-formatting{
         justify-content: flex-start;
@@ -76,7 +70,13 @@
         height: 60px;
         margin: 0;
     }
-    /* section with albums */    
+    /* section with albums */ 
+    .main-albums{
+        width: calc(100% - 50px);
+        background-color: green;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }   
     .main-albums ul{
         flex-wrap: wrap;
         margin-bottom: 50px;
@@ -89,7 +89,7 @@
     }    
     .main-albums .row .album-container{
         display: inline-block;
-        width: calc(100% / 2 - 10px);
+        width: calc(100% / 2 - 50px);
     }
     .main-albums .row .album-container h2 {
         margin: 15px 0 0;
@@ -100,5 +100,47 @@
     }
     .main-albums .row{
         margin-bottom: 20px;
+    }
+}
+/* responsive for small devises from 0 to 768px */
+@media screen and (max-width: 768px){
+/* section with albums */ 
+    .main-albums ul{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .main-albums ul li{
+        padding: 6px 10px;
+    }
+    .main-albums .row {
+        align-items: flex-start;
+    }    
+    .main-albums .row .album-container{
+        display: inline-block;
+        width: calc(100% / 2 - 50px);
+    }
+    .main-albums .row .album-container h2 {
+        margin: 15px 0 0;
+    }
+    .main-albums span {
+        display: inline-block;
+        margin: 5px 0 5px;
+    }
+    .main-albums .row{
+        margin-bottom: 20px;
+    }  
+}
+/* responsive for small devises from 0 to 992px */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .main-albums ul{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .main-albums ul li{
+        padding: 6px 10px;
+    }
+    .main-albums .row .album-container{
+        display: inline-block;
+        width: calc(100% / 4 - 50px);
     }
 }
