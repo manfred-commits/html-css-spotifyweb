@@ -46,6 +46,7 @@ main{
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 /* first section of the nav */
 .logo-container{

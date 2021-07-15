@@ -19,6 +19,9 @@
         object-fit: contain;
         margin-top: 10px;
     }
+    .main-nav-container{
+        padding: 0;
+    }    
     .adjacent-icon-formatting {
         justify-content: center;
     }
