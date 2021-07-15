@@ -1,5 +1,5 @@
 /* responsive for small devises from 0 to 576px */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
     /* transparent header */
     header{
         width: calc(100% - 50px);
@@ -103,7 +103,7 @@
     }
 }
 /* responsive for small devises from 0 to 768px */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
 /* section with albums */ 
     .main-albums ul{
         flex-wrap: wrap;
@@ -131,7 +131,7 @@
     }  
 }
 /* responsive for small devises from 0 to 992px */
-@media screen and (min-width: 769px) and (max-width: 992px){
+@media screen and (min-width: 700px) and (max-width: 1100px){
     .main-albums ul{
         flex-wrap: wrap;
         margin-bottom: 50px;
