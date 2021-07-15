@@ -12,6 +12,8 @@ body{
 /* transparent header */
 header{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     right: 0;
@@ -19,6 +21,17 @@ header{
     min-height: 60px;
     width: calc(100% - 200px);
     background-color: rgba(00, 00, 00, 0.4);
+}
+.upgrade-btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 35px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color:white;
+}
+.upgrade-btn h3{
+    font-size: 16px;
 }
 /* main section container */      
 main{
