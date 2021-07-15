@@ -8,6 +8,9 @@
 body{
     width: 100%;
 }
+/* main{      
+    max-height: calc(100vh - 60px);
+} */                               
 /* transparent header */
 header{
     display: flex;
@@ -23,12 +26,11 @@ header{
 .main-col{
     display: flex;
     justify-items: flex-start;
-    align-items: flex-start;  
-    max-height: calc(100vh - 60px);
+    align-items: flex-start;
     padding-top: 60px;
     /* min-width: 40vh; */
     background-color: red;
-    overflow-y:scroll;
+    overflow-y: auto;
 }
 /* navigation column section */
 .nav-col{
@@ -101,7 +103,7 @@ header{
 }
 .playlist-nav .playlist-scroll{
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .playlist-nav ul li{
     padding: 5px 0;
@@ -141,10 +143,11 @@ header{
 .main-albums{
     display: flex;
     min-width: calc(100% - 200px);
-    min-height: 200vh;
+    /* min-height: 200vh; */
     align-items: initial;
     background-color: green;
     margin-left: 200px;
+    margin-bottom: 60px;
 }
 /* footer section */
 footer{
