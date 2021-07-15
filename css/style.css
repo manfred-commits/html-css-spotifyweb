@@ -46,6 +46,7 @@ main{
 }
 .main-nav-container{
     width: 100%;
+    flex-grow: 1
 }
 /* first section of the nav */
 .logo-container{
