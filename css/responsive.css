@@ -1,0 +1,71 @@
+@media screen and (max-width: 576px){
+    /* transparent header */
+    header{
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        min-height: 60px;
+        width: calc(100% - 50px);
+        background-color: rgba(00, 00, 00, 0.4);
+    }
+    
+    
+    
+    
+    
+    .nav-col{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        max-width: 50px;
+        min-height: calc(100vh - 60px);
+        align-items: flex-start;
+        background-color: orange;
+    }
+    .container-left-col{
+        padding-left: 0;
+    }
+    .search-nav {
+        width:initial;
+    }
+    .logo-container{
+        display: inline-block;
+        background-image: url(../img/logo-small.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:center;
+        width:100%;
+        height: 40px;
+        margin: 10px;
+        margin-bottom: 0;
+    }
+    .nav-col ul{
+        display: inline-block;
+        margin: auto;
+    }
+    .nav-col ul li{
+        width: 100%;
+    }
+    .nav-col ul li img {
+        width: 30px;
+    }
+    .nav-col ul li span{
+        display: none;
+    }
+    /* section with albums */
+    .main-albums{
+        display: flex;
+        min-width: calc(100% - 50px);
+        min-height: 200vh;
+        align-items: initial;
+        background-color: green;
+        margin-left: 50px;
+    }
+}
