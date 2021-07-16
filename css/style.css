@@ -377,7 +377,7 @@ footer{
     padding-right: 10px;
 }
 .border-bar .bar-circle{
-    display: none;
+    visibility: hidden;
     position: absolute;
     top: -3px;
     left: 18%;
@@ -410,8 +410,12 @@ footer{
     transform: scale(1.1);
 }
 .border-bar:hover .bar-circle{
-    display: inline-block;
+    left: 88%;
+    transition: 4s;
+    visibility: visible;   
 }
 .border-bar:hover .progress-bar{
     background-color: greenyellow;
+    width:90%;
+    transition: 4s;
 }
