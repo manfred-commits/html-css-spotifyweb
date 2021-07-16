@@ -10,6 +10,9 @@
 /* general rules */
 body{
     width: 100%;
+}
+h2{
+    color: white;
 }   
 h2,
 h3{
@@ -39,6 +42,11 @@ header{
     font-size: 16px;
     color:white;
 }
+/* header sections hovers */
+.upgrade-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 /* main section container */      
 main{
     display: flex;
@@ -65,13 +73,13 @@ main{
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 15px;
 }
 /* first section of the nav */
 .logo-container{
     display: inline-block;
     margin-right: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
+    padding: 15px 15px 0;
 }
 #xs-img{
     display: none;
@@ -79,20 +87,34 @@ main{
 .search-nav{
     width: 100%;
     margin-top: 10px;
-    align-self: flex-start;
+    align-self: flex-start;    
+    /* padding: 0 15px; */
 }
 .nav-col ul{
     list-style: none;
+}
+.nav-col ul li{
+    padding-left:15px;
 }
 .nav-col .search-nav .adjacent-icon-formatting img{
     width: 25px;
     margin-right: 10px;
 }
+/* nav-col section hovers */
+.nav-col .search-nav ul li:hover{
+    border-left: 3px solid greenyellow;    
+    padding-left:12px;
+    cursor: pointer;
+}
+.nav-col .search-nav ul li:hover span{
+    color: white;
+}
 /* second section of the nav */
 .playlist-nav{
     width: 100%;
     flex-grow: 1;
-    overflow: hidden;      
+    overflow: hidden;  
+    padding: 0 15px;     
 }
 .playlist-nav> h3{
     margin: 20px 0 10px;
@@ -115,18 +137,34 @@ main{
 .playlist-nav ul li{
     padding: 5px 0;
 }
-
 .plus-sign{
     font-weight: 700;
     font-size: 26px;
-    background-color: white;
+    background-color: #797c80;
     color: black;
     padding: 0 8px;
     margin-right: 5px;
 }
+.playlist-nav .adjacent-icon-formatting{
+    margin-bottom: 15px;
+}
+/* playlist-nav section hovers */
+.playlist-nav .adjacent-icon-formatting:hover .plus-sign{
+    background-color: white;
+    cursor: pointer;
+}
+.playlist-nav .adjacent-icon-formatting:hover span{
+    color: white;
+    cursor: pointer;
+}
+.playlist-nav ul.playlist-scroll li:hover span{
+    color:white;
+    cursor: pointer;
+}
 /* bottom part of the nav */
 .bottom-nav{
-    width: 100%;
+    width: 100%;    
+    padding: 0 15px 15px;
 }
 .divider,
 .bottom-nav .adjacent-icon-formatting{
@@ -150,7 +188,15 @@ main{
 .profile-name{
     font-weight: 700;
 }
-
+/* bottom-nav section hovers */
+.bottom-nav .adjacent-icon-formatting:hover span{
+    color: white;
+    cursor: pointer;
+}
+.bottom-nav .adjacent-icon-formatting:hover .fa-arrow-alt-circle-down{
+    color: white;
+    cursor: pointer;
+}
 /* section with albums */
 .main-albums{
     width: calc(100% - 200px);
@@ -170,7 +216,6 @@ main{
     padding: 0 10px;
 }
 .main-albums h2{
-    color: white;
     margin: 15px 0 10px;
 }
 .main-albums span{
@@ -201,6 +246,11 @@ main{
     display: flex;
     border-radius: 50%;
     overflow: hidden;
+}
+/* main-albums section hovers */
+.main-albums ul li h3:hover{
+    color: white;
+    cursor: pointer;
 }
 /* footer section */
 footer{

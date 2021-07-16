@@ -14,7 +14,8 @@
     /* first section of the nav */
     .logo-container{
         width: 100%;
-        margin-right: 0;
+        margin-right: 0;        
+        padding: 0;
     }
     .logo-container img{
         display: none;
@@ -40,13 +41,17 @@
     .main-nav-container .search-nav .adjacent-icon-formatting span{
         display: none;
     }
+    .nav-col ul li{
+        padding-left:0;
+    }
     .playlist-nav{
         display: none;
     }
     .bottom-nav{
         position: absolute;
         bottom: 0;
-        margin-bottom: 10px;
+        margin-bottom: 10px;        
+        padding: 0;
     }
     .bottom-nav .adjacent-icon-formatting i {
         padding: 0;
