@@ -101,7 +101,7 @@ main{
     margin-right: 10px;
 }
 /* nav-col section hovers */
-.nav-col .search-nav ul li:hover{
+.nav-col .search-nav ul li:first-child{
     border-left: 3px solid greenyellow;    
     padding-left:12px;
     cursor: pointer;
@@ -216,6 +216,15 @@ main{
     padding: 0 10px;
     border-bottom: 3px solid transparent;
 }
+/* small bar beneath the main-albums nav */
+.main-albums ul li:first-child::after{
+    content:'';
+    display: block;
+    height: 3px;
+    background-color: greenyellow;
+    width: 30%;
+    margin: auto;
+}
 .main-albums h2{
     margin: 15px 0 10px;
 }
@@ -270,7 +279,6 @@ main{
 /* main-albums section hovers */
 .main-albums ul li:hover{
     color: white;
-    border-bottom: 3px solid greenyellow;
     cursor: pointer;
 }
 .main-albums ul li:hover h3{
