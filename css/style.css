@@ -247,8 +247,9 @@ main{
     overflow: hidden;
 }
 /* main-albums section hovers */
-.main-albums ul li h3:hover{
+.main-albums ul li:hover h3{
     color: white;
+    border-bottom: 3px solid greenyellow;
     cursor: pointer;
 }
 /* footer section */
@@ -311,6 +312,7 @@ footer{
 }
 .border-bar{
     border-radius: 15px;
+    height: 5px;
     width: 50%;
     background-color: #5a5a5a;    
 }
@@ -330,11 +332,8 @@ footer{
 }
 .progress-bar{
     background-color: #c1c1c1;    
-    width:20%
-}
-.border-bar,
-.progress-bar{
-    height: 5px;
+    width:20%;
+    height: 100%;
 }
 .right-player{
     display: flex;
