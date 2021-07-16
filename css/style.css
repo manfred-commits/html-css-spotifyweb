@@ -227,8 +227,8 @@ main{
     flex-wrap: wrap;
 }
 .main-albums .row .album-container{
-    width: calc(100% / 6 - 50px);
-    margin-right: 50px;
+    width: calc(100% / 6 - 20px);
+    margin-right: 20px;
     text-align: center;
 }
 .main-albums .row .album-container h2{
