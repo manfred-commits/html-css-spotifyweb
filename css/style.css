@@ -214,6 +214,7 @@ main{
 }
 .main-albums ul li{
     padding: 0 10px;
+    border-bottom: 3px solid transparent;
 }
 .main-albums h2{
     margin: 15px 0 10px;
@@ -231,12 +232,32 @@ main{
     margin-right: 20px;
     text-align: center;
 }
+.main-albums .row .album-container .img-container{
+    position: relative;
+}
+.album-container:hover .img-container::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "\f144";
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(00, 00, 00, 0.4);
+}
 .main-albums .row .album-container h2{
     color: white;
     font-size: 19px;
     width: 100%;
 }
 .main-albums .row .album-container img{
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -247,10 +268,13 @@ main{
     overflow: hidden;
 }
 /* main-albums section hovers */
-.main-albums ul li:hover h3{
+.main-albums ul li:hover{
     color: white;
     border-bottom: 3px solid greenyellow;
     cursor: pointer;
+}
+.main-albums ul li:hover h3{
+    color: white;
 }
 /* footer section */
 footer{
