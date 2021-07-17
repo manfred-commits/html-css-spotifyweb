@@ -210,7 +210,7 @@ main{
     list-style: none;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    padding-bottom: 20px;
 }
 .main-albums ul li{
     padding: 0 10px;
