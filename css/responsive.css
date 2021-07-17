@@ -83,6 +83,11 @@
     }
     .nav-col ul li{
         padding-left:0;
+        padding: 5px 0;
+    }
+    .nav-col .search-nav ul li:first-child {
+        padding-left:0;
+        margin-right: 3px;
     }
     .playlist-nav{
         display: none;

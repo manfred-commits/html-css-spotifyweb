@@ -412,10 +412,12 @@ footer{
 .border-bar:hover .bar-circle{
     left: 88%;
     transition: 4s;
+    animation-fill-mode: forwards;
     visibility: visible;   
 }
 .border-bar:hover .progress-bar{
     background-color: greenyellow;
     width:90%;
     transition: 4s;
+    animation-fill-mode: forwards;
 }
