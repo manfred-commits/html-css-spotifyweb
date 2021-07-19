@@ -414,6 +414,7 @@ footer{
     left: 88%;
     transition: 4s;
     animation-fill-mode: forwards;
+    cursor: pointer;
     visibility: visible;   
 }
 .border-bar:hover .progress-bar{
@@ -421,4 +422,5 @@ footer{
     width:90%;
     transition: 4s;
     animation-fill-mode: forwards;
+    cursor: pointer;
 }
