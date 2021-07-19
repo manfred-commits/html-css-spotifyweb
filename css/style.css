@@ -18,6 +18,9 @@ h2,
 h3{
     font-weight: 700;
 }
+a{
+    text-decoration: none;
+}
 /* transparent header */
 header{
     display: flex;
@@ -33,6 +36,7 @@ header{
 }
 .upgrade-btn{
     border: 1px solid white;
+    background-color: transparent;
     border-radius: 20px;
     padding: 8px 35px;
     margin-right: 20px;
@@ -106,7 +110,7 @@ main{
     padding-left:12px;
     cursor: pointer;
 }
-.nav-col .search-nav ul li:hover span{
+.nav-col .search-nav ul li:hover a{
     color: white;
 }
 /* second section of the nav */
@@ -153,13 +157,11 @@ main{
     background-color: white;
     cursor: pointer;
 }
-.playlist-nav .adjacent-icon-formatting:hover span{
+.playlist-nav .adjacent-icon-formatting:hover a{
     color: white;
-    cursor: pointer;
 }
-.playlist-nav ul.playlist-scroll li:hover span{
+.playlist-nav ul.playlist-scroll li:hover a{
     color:white;
-    cursor: pointer;
 }
 /* bottom part of the nav */
 .bottom-nav{
@@ -189,7 +191,7 @@ main{
     font-weight: 700;
 }
 /* bottom-nav section hovers */
-.bottom-nav .adjacent-icon-formatting:hover span{
+.bottom-nav .adjacent-icon-formatting:hover a{
     color: white;
     cursor: pointer;
 }
@@ -312,7 +314,7 @@ footer{
     font-size: 15px;
     color: white;
 }
-.left-player .adjacent-icon-formatting h4 span{
+.left-player .adjacent-icon-formatting h4 a{
     display: block;
     font-weight: 400;
     font-size: 13px;
@@ -397,10 +399,9 @@ footer{
 }
 /* hover effects of the footer */
 /* left col */
-.left-player .adjacent-icon-formatting h4 span:hover{
+.left-player .adjacent-icon-formatting h4 a:hover{
     text-decoration: underline;
     color: white;
-    cursor: pointer;
 }
 .left-player i:hover{
     color: white;

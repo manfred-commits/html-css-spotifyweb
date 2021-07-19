@@ -76,7 +76,7 @@
     .main-nav-container .search-nav .adjacent-icon-formatting img{
         margin: 0;
     }
-    .main-nav-container .search-nav .adjacent-icon-formatting span{
+    .main-nav-container .search-nav .adjacent-icon-formatting a{
         display: none;
     }
     .nav-col ul li{
@@ -98,6 +98,9 @@
     }
     .bottom-nav .adjacent-icon-formatting i {
         padding: 0;
+    }
+    .bottom-nav .adjacent-icon-formatting a{
+        display: none;
     }
     .bottom-nav .adjacent-icon-formatting span{
         display: none;
