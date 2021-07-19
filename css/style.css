@@ -246,6 +246,7 @@ main{
 .main-albums .row .album-container .img-container{
     position: relative;
 }
+/* albums semi-transparent overlay hover */
 .album-container:hover .img-container::after {
     display: flex;
     justify-content: center;
