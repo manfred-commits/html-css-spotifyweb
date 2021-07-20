@@ -118,16 +118,6 @@
         margin-left: 50px;
         margin-bottom: 60px;
     }   
-    .main-albums>h2{
-        font-size: 30px;
-        border-bottom: 3px solid white;
-        margin: 15px 0 15px;
-        padding: 10px 0 10px;
-    }
-    .main-albums>h2:nth-child(2){
-        margin: 0 0 15px;
-        padding: 0 0 10px;
-    }
     .main-albums ul{
         flex-wrap: wrap;
     }
@@ -278,6 +268,16 @@
         margin-left: 50px;
         margin-bottom: 60px;
     }   
+    .main-albums>h2{
+        font-size: 30px;
+        border-bottom: 3px solid white;
+        margin: 15px 0 15px;
+        padding: 10px 0 10px;
+    }
+    .main-albums>h2:nth-child(2){
+        margin: 0 0 15px;
+        padding: 0 0 10px;
+    }
     .main-albums ul{
         flex-wrap: wrap;
     }
