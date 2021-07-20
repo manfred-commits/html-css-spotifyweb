@@ -147,6 +147,7 @@
     .left-player .adjacent-icon-formatting{
         justify-content: flex-start;
         margin: 0;
+        padding: 5px;
     }
     .left-player .adjacent-icon-formatting .icons-container{
         padding-left: 5px;
@@ -300,7 +301,8 @@
     }
     .left-player .adjacent-icon-formatting{
         justify-content: flex-start;
-        margin: 0;
+        margin: 0px;
+        
     }
     .left-player .adjacent-icon-formatting .icons-container{
         display: none;
