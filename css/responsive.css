@@ -190,96 +190,11 @@
         text-align: center;
     }
     /* transparent header */
-    header{
-        width: calc(100% - 50px);
-        justify-content: center;
-    }
     .upgrade-btn{
         margin-right: 0;
         padding: 8px 15px;
     }
-    /* navigation column section */
-    .nav-col{    
-        width: 50px;
-    }  
-    /* first section of the nav */
-    .logo-container{
-        width: 100%;
-        margin-right: 0;        
-        padding: 0;
-    }
-    .logo-container img{
-        display: none;
-    }
-    .logo-container #xs-img{
-        display: inline-block;
-        width: 100%;
-        height: 40px;
-        object-fit: contain;
-        margin-top: 10px;
-        margin-right: 0;
-    }
-    .main-nav-container{
-        padding: 0;
-        align-items: center;
-    }    
-    .adjacent-icon-formatting {
-        justify-content: center;
-    }
-    .main-nav-container .search-nav .adjacent-icon-formatting img{
-        margin: 0;
-    }
-    .main-nav-container .search-nav .adjacent-icon-formatting a{
-        display: none;
-    }
-    .nav-col ul li{
-        padding-left:0;
-        padding: 5px 0;
-    }
-    .nav-col .search-nav ul li:first-child {
-        padding-left:0;
-        margin-right: 3px;
-    }
-    .playlist-nav{
-        display: none;
-    }
-    .bottom-nav{
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 10px;        
-        padding: 0;
-    }
-    .bottom-nav .adjacent-icon-formatting i {
-        padding: 0;
-    }
-    .bottom-nav .adjacent-icon-formatting a{
-        display: none;
-    }
-    .bottom-nav .adjacent-icon-formatting span{
-        display: none;
-    }
-    .bottom-nav .adjacent-icon-formatting img {
-        margin: 0;
-    }
-    .bottom-nav .divider{
-        visibility: hidden;
-    }
-    /* section with albums */ 
-    .main-albums{
-        width: calc(100% - 50px);
-        margin-left: 50px;
-        margin-bottom: 60px;
-    }   
-    
-    .main-albums ul{
-        flex-wrap: wrap;
-    }
-    .main-albums ul li{
-        padding: 6px 10px;
-    }
-    .main-albums .row {
-        align-items: flex-start;
-    }    
+    /* section with albums */   
     .main-albums .row .album-container{
         width: calc(100% / 1 - 20px);
         margin: 0 10px;
@@ -291,23 +206,12 @@
         display: inline-block;
         margin: 5px 0 20px;
     }
-    .main-albums .row{
-        margin-bottom: 20px;
-    }
     /* section footer */
     .left-player{
         display: flex;
         width:15%;
     }
-    .left-player .adjacent-icon-formatting{
-        justify-content: flex-start;
-        margin: 0px;
-        
-    }
     .left-player .adjacent-icon-formatting .icons-container{
-        display: none;
-    }
-    .left-player .adjacent-icon-formatting img{
         display: none;
     }
     .center-player{
@@ -323,14 +227,10 @@
         width: 15%;
         justify-content: center;
     }
-    /* .right-player{
-        display: none;
-    } */
     .right-player{
         flex-direction: column;
     }
     .right-player .border-bar{
         display: none;
     }
-    }
-
+}
