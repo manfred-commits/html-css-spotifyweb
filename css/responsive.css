@@ -184,6 +184,7 @@
         display: none;
     }
 }
+/* responsive for smaller devices from 0 to 360px */
 @media screen and (max-width: 360px){
     /* general rules */
     .main-albums{
